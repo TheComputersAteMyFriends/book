@@ -1,0 +1,29 @@
+body {
+	color: white;
+	background: deepskyblue;
+	
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: white;
+}
+
+h2,h3 {
+	color: green;
+}
+
+em{
+	color: blue;
+	font-size: xxx-large;
+}
+
+li{
+	font-size: small;
+}
+
+h1, h2{
+	text-align: center;
+}
