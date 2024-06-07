@@ -1,11 +1,144 @@
 body {
 	color: white;
 	background: deepskyblue;
+	background-attachment: fixed;
+	transition: 1s all;
 	
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.stormyGray {
+  background-color: #607080
+}
+
+@keyframes lightning { 
+	    0% { 
+                background-color: #607080
+            } 
+            50% { 
+                background-color: #607080
+            } 
+            50.5% { 
+                background-color: #eeffee 
+            } 
+            51% { 
+            	background-color: #607080
+            } 
+            52% { 
+                background-color: #607080
+            } 
+            52.5% { 
+                background-color: #eeffee 
+            } 
+            56% { 
+            	background-color: #607080
+            }
+            
+            82% { 
+                background-color: #607080
+            } 
+            82.5% { 
+                background-color: #ccddcc 
+            } 
+            86% { 
+            	background-color: #607080
+            }
+             
+            100% { 
+                background-color: #607080
+            } 
+            0%, 
+}
+.lightningBolt { 
+            animation: lightning 7s linear infinite
+}
+
+
+
+
+.veryDark {
+  background-color: #202020
+}
+.tooBright {
+  background-color: #FEFEFE
+}
+.regularGray {
+  background-color: #D0E0E8
+}
+.part3Gray {
+  background-color: #F0F0F0
+}
+.roomTan {
+  background-color: #cc9922
+}
+.smokeyRoom {
+  background: linear-gradient(to bottom, #555555 9%, #cc9922 55%)
+}
+.alarmFade1 {
+  background-color: #E590A8
+}
+.alarmFade2 {
+  background-color: #EAC0C5
+}
+
+@keyframes blinkRedAll { 
+	    0% { 
+                background-color: #F0F0F0 
+            } 
+            25% { 
+                background-color: #F0F0F0 
+            } 
+            75% { 
+            	
+            	background: linear-gradient(to bottom, #FF6070 20%, #F0F0F0 100%)
+            } 
+            100% { 
+                background-color: #F0F0F0
+            } 
+            0%, 
+}
+.alarmRedAll { 
+            animation: blinkRedAll 2s linear infinite
+} 
+
+@keyframes blinkRed { 
+            0% { 
+                background-color: #D0E0E8 
+            } 
+            25% { 
+                background-color: #D0E0E8 
+            } 
+            75% { 
+            	background-color: #FF6070 
+            } 
+            100% { 
+                background-color: #D0E0E8
+            } 
+} 
+.alarmRed { 
+            animation: blinkRed 1.7s linear infinite
+} 
+
+@keyframes blinkRed1 { 
+            0% { 
+                background-color: #D0E0E8 
+            } 
+            25% { 
+                background-color: #D0E0E8 
+            } 
+            75% { 
+            	background-color: #F4D0C8 
+            } 
+            100% { 
+                background-color: #D0E0E8
+            } 
+} 
+.alarmRed1 { 
+            animation: blinkRed1 1.7s linear infinite
+} 
+
 
 h1 {
 	color: white;
